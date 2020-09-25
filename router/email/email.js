@@ -5,7 +5,7 @@ var path = require("path");
 
 var bodyParser = require("body-parser");
 var mysql = require("mysql");
-var db_config = require("../config/db-config.json");
+var db_config = require("../../config/db-config.json");
 
 var connection = mysql.createConnection({
   host: db_config.host,
